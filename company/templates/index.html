@@ -1,0 +1,42 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python/Django/DRF</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="marg"> Функционал приложения</h1>
+
+      <p class="marg">1. Получение сотрудников</p>
+      <a href="http://127.0.0.1:8000/api/employee/"> employee </a>
+
+      <p class="marg">2. Получение департаментов</p>
+      <a href="http://127.0.0.1:8000/api/department/"> department </a>
+	  
+      <p class="marg">3. Swagger</p>
+      <a href="http://127.0.0.1:8000/swagger/"> swagger </a>
+
+      <p class="marg">4. Авторизация пользователя</p>
+      <a href="http://127.0.0.1:8000/api-auth/login/"> login </a>
+
+        <p class="marg">5. Выход пользователя</p>
+      <a href="http://127.0.0.1:8000/api-auth/logout/"> logout </a>
+
+        <p class="marg">6. Админка Django</p>
+      <a href="http://127.0.0.1:8000/admin/"> admin </a>
+
+      <p class="marg">7. Redoc</p>
+      <a href="http://127.0.0.1:8000/redoc/"> redoc </a>
+    </div>
+  </body>
+</html>
